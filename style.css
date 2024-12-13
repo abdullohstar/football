@@ -1,0 +1,66 @@
+.card-1{
+    width: 550px;
+    height: 600px;
+    background-color: blue;
+  border-radius: 20px;
+  margin-top: 120px;
+    
+}
+.card-2{
+    width: 550px;
+    height: 600px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 120px;
+    
+   
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+img{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+h2{
+   
+    text-align: center;
+    color: gold;
+}
+p{
+    color: chartreuse;
+    padding: 5px;
+}
+a{
+    color: yellow;
+    text-align: center;
+    padding-left: 190px;
+    text-decoration: none;
+    
+}
+.card-1:hover{
+    background-color: red;
+    color: black;
+    box-shadow: 10px 10px 20px 10px blue;
+    margin-bottom: 15px;
+}
+.card-2:hover{
+    background-color: red;
+    
+    font-weight: 400;
+    box-shadow: 10px 10px 20px 10px blue;
+    margin-bottom: 15px;
+}
+p:hover{
+color: black;
+font-family: cursive;
+font-size: 15px;
+}
